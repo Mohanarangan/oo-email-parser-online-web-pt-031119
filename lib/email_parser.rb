@@ -12,7 +12,7 @@ class EmailParser
   end
   
   def parse
-   # word.split(/[\s,']/)
+   
     emails.split(/[,\s]/)
   end
   
